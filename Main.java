@@ -15,8 +15,8 @@ public class Main {
     final static GpioPinDigitalOutput LED_MORE = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_16);
         
     final static GpioPinDigitalInput BUTTON_1 = gpio.provisionDigitalInputPin(RaspiPin.GPIO_12, PinPullResistance.PULL_UP);
-    final static GpioPinDigitalInput BUTTON_2 = gpio.provisionDigitalInputPin(RaspiPin.GPIO_5, PinPullResistance.PULL_UP);
-    final static GpioPinDigitalInput BUTTON_3 = gpio.provisionDigitalInputPin(RaspiPin.GPIO_6, PinPullResistance.PULL_UP);
+    final static GpioPinDigitalInput BUTTON_2 = gpio.provisionDigitalInputPin(RaspiPin.GPIO_05, PinPullResistance.PULL_UP);
+    final static GpioPinDigitalInput BUTTON_3 = gpio.provisionDigitalInputPin(RaspiPin.GPIO_06, PinPullResistance.PULL_UP);
     final static GpioPinDigitalInput BUTTON_4 = gpio.provisionDigitalInputPin(RaspiPin.GPIO_13, PinPullResistance.PULL_UP);
     final static GpioPinDigitalInput BUTTON_5 = gpio.provisionDigitalInputPin(RaspiPin.GPIO_19, PinPullResistance.PULL_UP);
 	final static GpioPinDigitalInput BUTTON_6 = gpio.provisionDigitalInputPin(RaspiPin.GPIO_26, PinPullResistance.PULL_UP);
